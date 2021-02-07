@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10A00135-7C3F-D4E6-6012-635AAF53EA94" name="cuti">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:42:13 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A41D4F1A-76FB-329E-C649-F66761F4791E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tanggal_mulai" id="DE3869A8-F335-8A38-F451-29CE831CA1B1">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:42:23 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_selesai" id="91277D92-37A4-F3DE-466B-A0321B7365D5">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:44:51 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

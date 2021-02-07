@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D1577EF-4664-ED82-641E-F0F247CD411C" name="log_cuti">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:46:04 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIM" id="4C76E698-2F6B-0733-406E-A5EC7A393283">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:52:19 UTC</createdTime>
+<generatorID>B1EEDF79-0F3C-F23D-A6A7-B5A2CB79AA46</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>411E7F2B-9CEA-B5C3-9F3F-7028E573B4BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_mulai" id="24F18513-A669-5366-6DF5-C19308FE4A8F">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:46:37 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_selesai" id="CA6C10B8-359F-3485-DDC1-C9BEB8AAEFCA">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:47:02 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A8D8858-BD5B-8DFA-B005-0AA802C14867" name="log_cuti PK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:46:35 UTC</createdTime>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<engineerTo>
+<item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24F18513-A669-5366-6DF5-C19308FE4A8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

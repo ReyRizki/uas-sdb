@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF48CAFC-0505-3AE6-DDC4-8298F98FAFA6" name="log_cuti">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>7D1577EF-4664-ED82-641E-F0F247CD411C</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mahasiswa_NIM" id="4D96033A-64F8-021E-2931-30DC6F03EF36">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>4C76E698-2F6B-0733-406E-A5EC7A393283</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58F6C1E9-A4B2-25CB-5008-35BAEA826B46" referredColumn="AC60E726-3D66-713C-C65E-F8BB0D44661B"/>
+</associations>
+</Column>
+<Column name="tanggal_mulai" id="EC752767-92D2-8D83-D573-95019E30FFA4">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>24F18513-A669-5366-6DF5-C19308FE4A8F</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_selesai" id="071B38EA-6DEA-6DB1-1EFD-AEBF30DEDBD9">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>CA6C10B8-359F-3485-DDC1-C9BEB8AAEFCA</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B142FE17-92C5-9BBD-A979-57F0ED3DFD26" name="log_cuti_PK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>6A8D8858-BD5B-8DFA-B005-0AA802C14867</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC752767-92D2-8D83-D573-95019E30FFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30A72091-6EC5-BD6B-EAF9-D340D942DD83" name="log_cuti_mahasiswa_FK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 02:55:23 UTC</createdTime>
+<generatorID>B1EEDF79-0F3C-F23D-A6A7-B5A2CB79AA46</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D96033A-64F8-021E-2931-30DC6F03EF36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
