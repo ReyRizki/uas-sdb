@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E159B9F6-8129-C49C-14D8-F34F1824152C" name="dropout">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>B4F2DE71-4FED-7EE9-3BD0-23D8304BBCA8</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIM" id="D4C73784-61A6-EBE2-C02B-5F52FFF33D6C">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>411E7F2B-9CEA-B5C3-9F3F-7028E573B4BC</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3D5743-805C-50B3-D63D-D368E4521E45" referredColumn="261014A8-1E0E-0D92-CAC6-B6D4DFC52E14"/>
+</associations>
+</Column>
+<Column name="no_sk" id="4C6632B1-9346-8FF1-F4D7-E883AA7731B6">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>62A41F19-0EA1-EC8B-8A2D-37C05AC0C328</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sebab" id="367A6FF0-ED39-3314-30CA-A8E0B24A6FB5">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>87BB8408-8668-67BC-A361-A5ED49FD8C5C</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C937CDD-75FA-4630-84CD-DF778C4DCE0D" name="dropout_PK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>17F97FB1-9A45-AC65-AA77-14D950DFEF65</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C73784-61A6-EBE2-C02B-5F52FFF33D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9B12C2C-8EF0-04F0-E94C-0154BB9FB3C3" name="dropout_mahasiswa_FK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:17 UTC</createdTime>
+<generatorID>FE320BA9-2F41-7CFE-D0C9-A23DBE827DBA</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C73784-61A6-EBE2-C02B-5F52FFF33D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

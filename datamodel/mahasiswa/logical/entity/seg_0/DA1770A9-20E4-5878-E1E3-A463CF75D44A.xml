@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10A00135-7C3F-D4E6-6012-635AAF53EA94" name="cuti">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA1770A9-20E4-5878-E1E3-A463CF75D44A" name="lulus">
 <createdBy>reyrizki</createdBy>
-<createdTime>2021-02-07 02:42:13 UTC</createdTime>
+<createdTime>2021-02-07 06:17:52 UTC</createdTime>
 <ownerDesignName>mahasiswa</ownerDesignName>
 <engineerTo>
 <item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tanggal_mulai" id="DE3869A8-F335-8A38-F451-29CE831CA1B1">
+<Attribute name="no_sk" id="2AB02F52-674A-01E7-F98C-F5210C46E0F0">
 <createdBy>reyrizki</createdBy>
-<createdTime>2021-02-07 02:42:23 UTC</createdTime>
+<createdTime>2021-02-07 06:18:16 UTC</createdTime>
 <ownerDesignName>mahasiswa</ownerDesignName>
 <engineerTo>
 <item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
@@ -26,12 +26,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal_selesai" id="91277D92-37A4-F3DE-466B-A0321B7365D5">
+<Attribute name="no_ijazah" id="5F164201-37B9-D472-D5C9-11900991728B">
 <createdBy>reyrizki</createdBy>
-<createdTime>2021-02-07 02:44:51 UTC</createdTime>
+<createdTime>2021-02-07 06:18:30 UTC</createdTime>
 <ownerDesignName>mahasiswa</ownerDesignName>
 <engineerTo>
 <item key="4FE66EAE-A2A4-C535-E323-471B8EB83CD4" value="true"/>
@@ -39,8 +40,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

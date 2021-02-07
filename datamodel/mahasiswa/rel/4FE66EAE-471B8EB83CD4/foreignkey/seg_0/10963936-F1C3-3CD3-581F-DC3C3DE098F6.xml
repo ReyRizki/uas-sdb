@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10963936-F1C3-3CD3-581F-DC3C3DE098F6" containerWithKeyObject="00C8C970-3144-B00D-E135-4B958E941A54" localFKIndex="B7DFDFA3-1B10-8732-D910-7164F8DC130B" name="aktif_mahasiswa_FK">
+<createdBy>reyrizki</createdBy>
+<createdTime>2021-02-07 06:24:16 UTC</createdTime>
+<generatorID>F6A8F8AB-1894-22A0-F7A1-729C02EEDB0C</generatorID>
+<ownerDesignName>mahasiswa</ownerDesignName>
+<referredTableLongName>mahasiswa</referredTableLongName>
+<arc>01501203-FE3C-143E-B6DD-1DA3F6B514E8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1720890F-0AB9-61BB-E968-31BD27D46EA5</referredTableID>
+<keyObject>59BB58D4-EED2-1897-9C03-B06464002647</keyObject>
+<referredKeyID>59BB58D4-EED2-1897-9C03-B06464002647</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
